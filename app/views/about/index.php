@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<div class="container">
+    <h1 class="mt-4">About Me</h1>
+    <img src="<?= BASEURL?>/img/profile.png" alt="Ahmad Supandi" width="150" height="150" class="rounded-circle shadow">
+    <p>Halo, Nama Saya <?= $data['nama']; ?>, Umur saya <?= $data['umur'];?>, saya adalah seorang
+        <?= $data['pekerjaan'];?></p>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-</head>
-
-<body>
-    <h1>About Me</h1>
-</body>
-
-</html>
+</div>
